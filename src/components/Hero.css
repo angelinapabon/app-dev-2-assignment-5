@@ -1,0 +1,77 @@
+/* Hero.css */
+/* CSS generated with assistance from AI tools for full-width banner and overlay text */
+
+.hero {
+  width: 100%;
+  min-height: 360px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0.35) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+.hero-content {
+  max-width: 700px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin: 0 0 16px;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  margin: 0 0 28px;
+  opacity: 0.92;
+  line-height: 1.5;
+}
+
+.hero-cta {
+  background: #0071e3;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 980px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.hero-cta:hover {
+  background: #0077ed;
+  transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
